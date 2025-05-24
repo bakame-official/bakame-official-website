@@ -1,0 +1,18 @@
+
+.grid-header {
+  display:grid;
+  grid-template-columns: 1fr 5fr; 
+  background: var(--primary-color);
+
+}
+
+.flex-navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px;
+  background-color:var( --primary-color);
+  color : var(--text-color);
+  font-family: var(--font-family);
+}

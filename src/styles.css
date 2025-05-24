@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  /* ========== 🎨 Brand Colors ========== */
+
+  --primary-color: #0b1d34;       
+  /* Use for: main header background, navigation bars, footers */
+
+  --accent-color: #1f6feb;        
+  /* Use for: buttons, links, highlights, hover states */
+
+  --secondary-color: #ffffff;     
+  /* Use for: text on dark backgrounds, icon fills, reverse buttons */
+
+  --muted-color: #94a3b8;         
+  /* Use for: secondary text, placeholders, form labels, disabled UI */
+
+  --border-color: #1e293b;        
+  /* Use for: borders around cards, inputs, modals */
+
+  /* ========== 🖼️ Backgrounds ========== */
+
+  --background-color: #0b1d34;    
+  /* Use for: main page background (body or html element) */
+
+  --surface-color: #16253d;       
+  /* Use for: card backgrounds, modal panels, sections within main layout */
+
+  /* ========== ✍️ Typography ========== */
+
+  --font-family: 'Inter', 'Segoe UI', 'Roboto', 'sans-serif';
+  /* Use for: base font across entire site */
+
+  --font-size: 16px;
+  /* Use for: body font size (root level); scale with rems for responsiveness */
+
+  --text-color: #e2e8f0;          
+  /* Use for: main readable body text on dark backgrounds */
+
+  --text-muted: #94a3b8;          
+  /* Use for: subtitles, hint text, metadata, secondary UI labels */
+
+  /* ========== 📐 Layout & UI ========== */
+
+  --header-height: 64px;
+  /* Use for: fixed header height, layout calculations, sticky nav spacing */
+
+  --content-max-width: 1200px;
+  /* Use for: max-width on main container/wrapper */
+
+  --border-radius: 0.5rem;
+  /* Use for: consistent rounding on cards, buttons, modals, inputs */
+
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  /* Use for: drop shadows, elevation effects on hover/focus */
+}

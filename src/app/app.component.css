@@ -5,12 +5,12 @@
     height: 100vh; /*// Full viewport height*/
     gap: 10px; /*// Space between rows*/
     padding: 10px; /*// Padding around the grid*/
+    background: var(--background-color);
 
 }
 
 app-header {
     background-color: #f0f0f0; /*// Header background color*/;
-    padding: 1rem; /*// Padding for header*/
     text-align: center; /*// Center text in header*/
 }
 

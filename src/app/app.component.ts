@@ -18,4 +18,5 @@ import { BodyComponent } from './body/body.component';
 })
 export class AppComponent {
   title = 'bakame-offical-web';
+  
 }
