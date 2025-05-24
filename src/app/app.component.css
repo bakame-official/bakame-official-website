@@ -1,0 +1,28 @@
+.layout {
+    display: grid; /*// Define a grid layout*/
+    grid-template-rows: auto 1fr auto; /*// Three rows: header, content, footer*/
+    grid-template-columns: 1fr; /*// Single column layout*/
+    height: 100vh; /*// Full viewport height*/
+    gap: 10px; /*// Space between rows*/
+    padding: 10px; /*// Padding around the grid*/
+
+}
+
+app-header {
+    background-color: #f0f0f0; /*// Header background color*/;
+    padding: 1rem; /*// Padding for header*/
+    text-align: center; /*// Center text in header*/
+}
+
+app-body {
+    background-color: #ffffff; /*// Body background color*/;
+    padding: 1rem; /*// Padding for body*/
+    overflow-y: auto; /*// Allow vertical scrolling if content overflows*/
+    text-align: center;
+}
+
+app-footer {
+    background-color: #f0f0f0; /*// Footer background color*/;
+    padding: 1rem; /*// Padding for footer*/
+    text-align: center; /*// Center text in footer*/
+}
