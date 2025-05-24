@@ -26,3 +26,27 @@ app-footer {
     padding: 1rem; /*// Padding for footer*/
     text-align: center; /*// Center text in footer*/
 }
+
+*,*:before,*:after {
+    box-sizing: border-box; /*// Ensure padding and borders are included in element's total width and height*/
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px ) { /*// For devices with a max width of 768px*/
+    app-header,
+    app-body,
+    app-footer {
+        padding: 0.75rem; /*// Reduce padding on smaller screens*/
+        font-size: 0.95rem; /*// Slightly smaller font size*/
+    }
+}
+
+@media (max-width: 480px) { /*// For devices with a max width of 480px*/
+    app-header,
+    app-body,
+    app-footer {
+        padding: 0.5rem; /*// Further reduce padding on very small screens*/
+        font-size: 0.9rem; /*// Even smaller font size*/
+    }
+}
