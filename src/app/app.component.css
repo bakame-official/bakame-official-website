@@ -1,7 +1,6 @@
 .layout {
     display: grid; /*// Define a grid layout*/
-    grid-template-rows: auto 1fr auto; /*// Three rows: header, content, footer*/
-    grid-template-columns: 1fr; /*// Single column layout*/
+    grid-template-rows: 10% 80% 10%; /*// Three rows: header, content, footer*/
     height: 100vh; /*// Full viewport height*/
     gap: 10px; /*// Space between rows*/
     padding: 10px; /*// Padding around the grid*/
