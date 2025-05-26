@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { VantabackgroundComponent } from './vantabackground.component';
+import { VantaBackgroundComponent } from './vantabackground.component';
 
 describe('VantabackgroundComponent', () => {
-  let component: VantabackgroundComponent;
-  let fixture: ComponentFixture<VantabackgroundComponent>;
+  let component: VantaBackgroundComponent;
+  let fixture: ComponentFixture<VantaBackgroundComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [VantabackgroundComponent]
+      imports: [VantaBackgroundComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(VantabackgroundComponent);
+    fixture = TestBed.createComponent(VantaBackgroundComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
