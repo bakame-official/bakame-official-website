@@ -13,24 +13,25 @@
     "footer";
     height: 100dvh;
     overflow-y: auto; 
+   
 }
 
 .navbar {
     position: sticky;
     top:0;
     grid-area: navbar ;
-    background-color: red;
+    background-color: white;
     padding: 1em; 
+    margin-top: 0px;
 }
 .main {
     grid-area: main;
-    background-color: blue;
     padding: 2;
      
 }
 .footer {
     grid-area: footer;
-    background-color: red;
+    background-color: white;
     padding: 1em;
 
 }
