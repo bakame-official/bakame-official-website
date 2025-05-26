@@ -1,58 +1,36 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
 .layout {
-    display: grid; /*// Define a grid layout*/
-    grid-template-rows: 10% 80% 10%; /*// Three rows: header, content, footer*/
-    height: 100vh; /*// Full viewport height*/
-    background: var(--background-color);
-
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+    "navbar"
+    "main"
+    "footer";
+    height: 100dvh;
+    overflow-y: auto; 
 }
 
-/* app-header {
-    
-   
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    box-sizing: border-box;
-
-} */
-
-app-body {
-    background-color: #ffffff; /*// Body background color*/;
-    padding: 1rem; /*// Padding for body*/
-    overflow-y: auto; /*// Allow vertical scrolling if content overflows*/
-    text-align: center;
-    background-color: var(--background-color);
-    /*// Optional: Add border radius for a softer look*/
+.navbar {
+    position: sticky;
+    top:0;
+    grid-area: navbar ;
+    background-color: red;
+    padding: 1em; 
 }
-
-app-footer {
-    background-color: #f0f0f0; /*// Footer background color*/;
-    padding: 1rem; /*// Padding for footer*/
-    text-align: center; /*// Center text in footer*/
-    background-color: var(--background-color);
+.main {
+    grid-area: main;
+    background-color: blue;
+    padding: 2;
+     
 }
+.footer {
+    grid-area: footer;
+    background-color: red;
+    padding: 1em;
 
-*,*:before,*:after {
-    box-sizing: border-box; /*// Ensure padding and borders are included in element's total width and height*/
-}
-
-
-/* Responsive Design */
-@media (max-width: 768px ) { /*// For devices with a max width of 768px*/
-    app-header,
-    app-body,
-    app-footer {
-        padding: 0.75rem; /*// Reduce padding on smaller screens*/
-        font-size: 0.95rem; /*// Slightly smaller font size*/
-    }
-}
-
-@media (max-width: 480px) { /*// For devices with a max width of 480px*/
-    app-header,
-    app-body,
-    app-footer {
-        padding: 0.5rem; /*// Further reduce padding on very small screens*/
-        font-size: 0.9rem; /*// Even smaller font size*/
-    }
 }

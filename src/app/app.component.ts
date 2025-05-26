@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
+import { VantabackgroundComponent } from './vantabackground/vantabackground.component'; 
 
 @Component({
   selector: 'app-root', // The selector is used to identify this component in the HTML
@@ -11,7 +12,9 @@ import { BodyComponent } from './body/body.component';
     RouterOutlet,
     HeaderComponent,
     FooterComponent,
-    BodyComponent
+    BodyComponent,
+    VantabackgroundComponent
+    
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
