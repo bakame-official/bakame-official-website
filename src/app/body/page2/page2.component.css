@@ -1,0 +1,32 @@
+.page2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    grid-area:
+    section1 section 2
+    section3 section4;
+    padding: 20px;
+    height: 100%;
+}
+
+.section1 {
+    grid-area: section1;
+    background-color: lightblue;
+    padding: 20px;
+}
+.section2 {
+    grid-area: section2;
+    background-color: rgb(156, 144, 238);
+    padding: 20px;
+}
+.section3 {
+    grid-area: section3;
+    background-color: lightcoral;
+    padding: 20px;
+}
+.section4 {
+    grid-area: section4;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+}
