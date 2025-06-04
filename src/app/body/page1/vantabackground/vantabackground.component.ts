@@ -20,14 +20,14 @@ export class VantaBackgroundComponent implements AfterViewInit, OnDestroy {
     // Load Vanta.NET from CDN
     if (isPlatformBrowser(this.platformId)) { // Check if we are in the browser environment
     const threeScript = document.createElement('script'); // Create a script element for THREE.js
-    threeScript.src = 'https://cdn.jsdelivr.net/npm/three@0.134.0/build/three.min.js';
+    threeScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js';
   
    
         threeScript.onload = () => {
           const vantaScript = document.createElement('script'); // Create a script element for VANTA.NET
-          vantaScript.src = 'https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js';
+          vantaScript.src = 'https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js';
           vantaScript.onload = () => { 
-            this.vantaEffect = (window as any).VANTA.NET({
+            this.vantaEffect = (window as any).VANTA.DOTS({
             el: this.elementRef.nativeElement.querySelector('#vanta-background'),
             mouseControls: true,
             touchControls: true,
@@ -35,10 +35,7 @@ export class VantaBackgroundComponent implements AfterViewInit, OnDestroy {
             minHeight: 200.00,
             minWidth: 200.00,
             scale: 1.00,
-            scaleMobile: 1.00,
-            backgroundColor: 0x0b1d34, // Set the background color to black
-            color: 0xffffff, // Set the color of the net to white
-            points: 10.00, // Adjust the number of points in the net
+            scaleMobile: 1.00
           
           }) ;  
           };

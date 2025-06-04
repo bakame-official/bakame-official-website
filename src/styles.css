@@ -54,4 +54,24 @@
 
   --shadow-color: rgba(0, 0, 0, 0.3);
   /* Use for: drop shadows, elevation effects on hover/focus */
+
+
+  --golden:#d4a22d; 
+  --royalblue:#4169E1;
+  --lightblue:#add8e6;
+  --blue: #142d52;
+  --gold: #d4af37;
+  --white: #f4f4f4;
+  --gray: #333333;
+  --blue: #7ab8db;
+  --red: #a52a2a;
+  --black: #000000;
+  --main_black: #222222;
+  --dots-color: #ff8820;
+
+  
+}
+html, body, app-root {
+  margin: 0;
+  padding: 0;
 }
