@@ -13,13 +13,15 @@ header {
     background-color: var(--main_black);
     justify-content: flex-end;
     align-items: center;
-    padding-top: 30px;
-    
+    gap: 20px;
+    padding: 30px; 
+   
 }
 
 .logo {
     cursor: pointer;
     margin-right: auto;
+    
 }
 .nav_links {
     list-style: none;
@@ -43,11 +45,9 @@ button {
     padding: 9px 25px;
     /* background-color: rgba(0, 136, 169, 1); */
     border: none;
-   
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
- 
 }
 
 .free_trial button {
@@ -55,12 +55,19 @@ button {
    
 }
 
-
-
-
 button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
 .free_trial button:hover{
     background-color: rgba(0, 136, 169, 1);
+    
+}
+
+.log_in button {
+    background-color: rgba(0, 136, 169, 1);
+    color: white;
+}
+
+.log_in button:hover {
+    background-color: rgba(169, 65, 0, 0.8);
 }
