@@ -1,5 +1,17 @@
 <h1 style="color: white; text-align: center"> Bakame Partners</h1>
     <h3 style="color: white; text-align: center"> Bakame is helping these companies grow their business with AI</h3>
     
-<p-carousel [values] = "partners" [autoplayInterval] = "1000" [circular] = "true" > </p-carousel>
+<p-carousel [value] = "partners" 
+            [autoplayInterval] = "3000"  
+            [numVisible] = "3"
+            [numScroll] = "1"
+            [circular] = "true" > 
+            <ng-template let-item pTemplate="item"> <!-- This is the template for each item in the carouse l -->
+                <h4 style="text-align: center; color: white">{{item.title}}</h4>
+                <p-image [src] = "item.image"  alt="image" width="200px"> 
+                </p-image>
+            </ng-template>
+</p-carousel>
+
+
 
