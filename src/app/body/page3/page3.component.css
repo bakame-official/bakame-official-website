@@ -3,9 +3,9 @@
     /* border: 2px solid black; */
 }
 
-.video_container{
+.video-container{
   display: grid;
   place-items: center; /* Centers both horizontally and vertically */
-  border: 2px solid black;
+  /* border: 2px solid black; */
  }
 
