@@ -6,3 +6,37 @@
 body{
     background-color: #f0f0f0;
 }
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+    
+}
+
+.logos {
+    overflow: hidden;
+    padding: 60px 0;
+    background-color: var(--main-color);
+    white-space: nowrap;
+}
+
+.logo_slide{
+   
+
+    animation: slide 15s linear infinite;
+    display: inline-block;
+}
+
+.logo_slide img {
+    height: 50px;
+    margin: 0 50px;
+    display: inline-block;
+    
+    
+}
+
+
