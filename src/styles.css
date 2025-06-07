@@ -79,6 +79,7 @@ html, body, app-root {
   background: var(--main_black );
   position: relative;
   z-index: -1; /* Ensure the background is behind all content */
+  overflow-x: hidden;;
 
  
 }
