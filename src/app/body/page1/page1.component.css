@@ -11,10 +11,43 @@
     width: 100%;
    
    
+   
 }
 
-.landing-page{
-    justify-content: center;;
-   
+.landing-page-container{
   
+    text-align: center; /* Center the text */
+    width: 60%; /* Set a width for the container */
+    margin: 0 auto; /* Center the container itself */
+    padding: 25px; /* Add some padding for better spacing */
+    
+
 }
+
+.title {
+
+    font-family: 'Courier New', Courier, monospace; /* Use a monospace font for the welcome text */
+    font-size: 3.5em;
+    line-height: 120%;
+    margin-bottom: 1em;
+    font-weight: bold;
+    
+}
+
+.subtitle {
+    font-family: 'Courier New', Courier, monospace; /* Use a monospace font for the subtitle */
+    font-size: large;
+    margin-bottom: 2em;
+    
+
+}
+
+.demo{
+    border:#ccc solid 2px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: medium;
+}
+
