@@ -1,4 +1,6 @@
 
+
+
 li, a, button {
     font-family: "Inter", sans-serif;
     font-weight: bold;
@@ -7,7 +9,7 @@ li, a, button {
     text-decoration: none;
 }
 
-header {
+.header {
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -22,7 +24,7 @@ header {
     max-height: 64px;
     overflow: hidden;
     box-sizing: border-box;  
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 ;  
 }
 
@@ -84,18 +86,51 @@ button:hover {
     background-color: rgba(0, 136, 169, 1);
     
 }
-
-/* .log_in button {
-    background-color: var(--primary-color);
-    color: white;
-} */
-
-/* .log_in button:hover {
-    background-color: rgba(169, 65, 0, 0.8);
-} */
  .signup {
     list-style-type: none;
      padding-right: 5px;
  }
+
+
+ /* Extra small devices (phones) */
+@media (max-width: 480px) {
+    .header {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+        
+     }
+
+     .header #nav_box  {
+        display: none;
+     }
+
+     .header #signup  {
+        display: none;
+     }
+     .header #demo  {
+        display: none;
+     }
+
+    
+    
+
+
+
+
+}
+
+/* Small devices (phones + foldables) */
+@media (max-width: 600px) {  }
+
+/* Medium devices (tablets) */
+@media (max-width: 768px) { }
+
+/* Large tablets / small laptops */
+@media (max-width: 1024px) { }
+
+ 
+
+
 
 
