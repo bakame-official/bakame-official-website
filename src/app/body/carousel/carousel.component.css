@@ -21,12 +21,12 @@ body{
     overflow: hidden;
     padding: 60px 0;
     background-color: var(--main-color);
+    position: relative;
+    z-index: -1;
     white-space: nowrap;
 }
 
 .logo_slide{
-   
-
     animation: slide 15s linear infinite;
     display: inline-block;
 }

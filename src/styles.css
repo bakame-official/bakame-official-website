@@ -14,8 +14,6 @@
   --muted-color: #94a3b8;         
   /* Use for: secondary text, placeholders, form labels, disabled UI */
 
-  
-
   --border-color: #1e293b;        
   /* Use for: borders around cards, inputs, modals */
 
@@ -75,12 +73,15 @@ html, body, app-root {
   margin: 0;
   padding: 0;
   height: 100%;
-  width: 100%;
-  background: var(--main_black );
+  max-width: 100vw;
+  background: white;
   position: relative;
   z-index: -1; /* Ensure the background is behind all content */
-  
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
 
-
- 
+*, *::before, *::after {
+  /* box-sizing: inherit; */
+  max-width: 100vw;
 }

@@ -3,14 +3,14 @@ li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 header {
     display: flex;
     flex-direction: row;
-    background-color: var(--main_black);
+    background-color: white;
     justify-content: flex-end;
     align-items: center;
     gap: 20px;
@@ -21,6 +21,8 @@ header {
 .logo {
     cursor: pointer;
     margin-right: auto;
+    width: 100px;
+    height: 100px;
     
 }
 .nav_links {
