@@ -34,3 +34,17 @@
     height: 10%;
 }
 
+@media (max-width: 600px) {
+    .navbar {
+        height: auto;
+    }
+
+    .main {
+        height: auto;
+    }
+
+    .footer {
+        height: auto;
+    }
+}
+

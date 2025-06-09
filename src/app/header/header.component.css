@@ -130,6 +130,10 @@ button:hover {
     .demo{
         display: none;
     }
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
 
  }
 
