@@ -67,7 +67,6 @@ button {
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
-
 .demo button {
     background-color: var(--primary-color);
     color: white;
@@ -92,36 +91,47 @@ button:hover {
  }
 
 
- /* Extra small devices (phones) */
-@media (max-width: 480px) {
-    .header {
-        overflow: hidden;
-        background-color: #333;
-        position: relative;
-        
-     }
-
-     .header #nav_box  {
-        display: none;
-     }
-
-     .header #signup  {
-        display: none;
-     }
-     .header #demo  {
-        display: none;
-     }
-
-    
-    
-
-
-
-
+ .menu {
+  display: none;
+  z-index: 1000; 
+  /* position: absolute  */
+ 
 }
 
+.burger {
+    display: none;
+}
+
+.menu.is-open {
+  display: block; 
+}
+.menu li {
+  margin-bottom: 10px;
+}
+
+
+
+ 
+
+ /* Extra small devices (phones) */
+@media (max-width: 480px) {}
+
 /* Small devices (phones + foldables) */
-@media (max-width: 600px) {  }
+@media (max-width: 600px) { 
+    .burger {
+        display: block;
+    }
+    .nav_box{
+        display: none;
+    }
+    .signup{
+        display: none;
+    }
+    .demo{
+        display: none;
+    }
+
+ }
 
 /* Medium devices (tablets) */
 @media (max-width: 768px) { }
