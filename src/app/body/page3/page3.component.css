@@ -1,5 +1,8 @@
 .page3 {
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+  
     /* border: 2px solid black; */
 }
 
@@ -7,5 +10,6 @@
   display: grid;
   place-items: center; /* Centers both horizontally and vertically */
   /* border: 2px solid black; */
+  
  }
 
