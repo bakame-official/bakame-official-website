@@ -7,34 +7,33 @@
 .page2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 1fr 1fr;
     grid-gap: 20px;
-    grid-area:
-    section1 section2
-    section3 section4;
+  
     padding: 20px;
     height: 100vh;
-     /* border: 2px solid black; */
+    text-align: center;
+     border: 2px solid rgb(183, 74, 74);
+   
+  
   
 }
 
 .section1 {
-    grid-area: section1;
-    background-color: lightblue;
-   
+
+    border: 1px solid var(--primary-color); 
 }
 .section2 {
-    grid-area: section2;
-    background-color: rgb(156, 144, 238);
-  
+
+    border: 1px solid var(--primary-color); 
 }
 .section3 {
-    grid-area: section3;
-    background-color: lightcoral;
-  
+
+    border: 1px solid var(--primary-color);
+
 }
 .section4 {
-    grid-area: section4;
-    background-color: lightgoldenrodyellow;
+
+    border: 1px solid var(--primary-color);
   
 }
